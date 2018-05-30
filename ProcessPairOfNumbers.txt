@@ -1,0 +1,17 @@
+PSEUDOCODE:
+DOWHILE cardOne and cardTwo do not equal to 0
+	Prompt user for numerical value of the first card
+	IF card entered is J,Q, or K
+		THEN assign 10 to cardOne
+	ELSE IF card entered is A
+		THEN assign 11 to cardOne
+	Prompt user for numerical value of the second card
+	IF card entered is J,Q, or K
+		THEN assign 10 to cardTwo
+	ELSE IF card entered is A
+		THEN assign 11 to cardTwo
+	Calculate sum = cardOne + cardTwo
+	IF sum = 21
+		THEN display sum and "*"
+	ELSE
+		display sum
